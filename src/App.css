@@ -1,0 +1,159 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.colorDefault {
+    color: red;
+}
+
+.top-product-image-wrapper {
+    text-align: center;
+}
+
+.top-product-image-wrapper > img {
+    margin-top: 40px;
+    width: 500px;
+}
+
+.shop-now-section-component {
+    background-color: #db4735 !important;
+    height: 200px;
+    position: relative;
+}
+
+.shop-now-section-component h3 {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.inner-wrapper-title {
+    display: inline-block;
+}
+
+.video-container {
+    height: 530px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-container video {
+}
+
+.video-container h2 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 20rem;
+    font-size: 40px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.video-container svg {
+    margin-top: 8rem;
+}
+
+.products-presentation-info-wrapper {
+    margin: 14px;
+    text-align: justify;
+}
+
+.products-presentation-info-wrapper .list {
+    margin-top: 40px;
+}
+
+.products-presentation-info-wrapper h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.products-presentation-info-wrapper li {
+    margin: 10px;
+    text-align: justify;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.products-presentation-info-wrapper .bullet {
+
+    margin-right: 10px;
+    margin-top: 2px;
+    line-height: 5px;
+}
+
+.filters-wrapper button {
+    margin: 20px 20px;
+    border-radius: 15px;
+}
+
+.product-wrapper {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.product-inner-wrapper {
+
+}
+
+.product-inner-wrapper .product-image {
+    width: 100%;
+}
+
+.product-image-outer-wrapper {
+    overflow: hidden;
+    border: 1px solid lightgrey;
+    position: relative;
+    margin: 0 auto;
+}
+
+.product-add-to-cart-button {
+    position: absolute !important;
+    left: calc(100% - 230px);
+    bottom: -100px;
+    right: 0;
+
+}
+
+.product-wrapper:hover .product-add-to-cart-button {
+    bottom: 20px;
+    transition: bottom 0.3s;
+}
+
+.product-image-inner-wrapper {
+    border: 1px solid lightgrey;
+}
